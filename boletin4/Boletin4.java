@@ -19,9 +19,15 @@ public class Boletin4 {
         int velocidade2 = Obx1.getVelocidade();
         System.out.println("Velocidade= " + velocidade2);
 //4.2
-        Satelite Obx2 = new Satelite(24d, 35d, 34d);
+        Satelite Obx2 = new Satelite(24, 35, 34);
         Obx2.verPosicion();
+//4.3
+        Circulo Obx3 =new Circulo (10);
+        double area= Obx3.calcularArea();
+        double longitud= Obx3.calcularLongitud();
         
+        System.out.println("El circulo tiene un area de "+ area + " y una longitud de "+ longitud);
+
     }
 
 }
