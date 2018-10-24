@@ -27,7 +27,13 @@ public class Boletin4 {
         double longitud= Obx3.calcularLongitud();
         
         System.out.println("El circulo tiene un area de "+ area + " y una longitud de "+ longitud);
-
+//4.4
+        Almacen Obx4=new Almacen (48,59);
+        Obx4.engadirPatacas(100);
+        Obx4.engadirPolbo (100);
+        int clientes=Obx4.podeAtender();
+        System.out.println("Patacas="+ Obx4.amosarPatacas()+ "Polbo="+ Obx4.amosarPolbo());
+        System.out.println("En total pode atender a: "+clientes+" clientes");
     }
 
 }
