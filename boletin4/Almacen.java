@@ -16,7 +16,7 @@ public class Almacen {
     public int podeAtender (){
         int usarPolbo;
         usarPolbo=polbo/2;
-        clientes= Math.min(usarPolbo,patacas);
+        clientes= Math.min(usarPolbo,patacas)*3;
         return clientes;
     }
     public void engadirPolbo(int polbo){
